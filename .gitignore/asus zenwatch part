@@ -1,0 +1,42 @@
+Found valid GPT with protective MBR; using GPT
+
+Disk /dev/block/mmcblk0: 7634944 sectors, 3728M
+Logical sector size: 512
+Disk identifier (GUID): 98101b32-bbe2-4bf2-a06e-2bb33d000c20
+Partition table holds up to 36 entries
+First usable sector is 34, last usable sector is 7634910
+
+Number 	Start       End         Size 	  Code 	Name
+1 			34   			  1057 			  512K 	  0700 	sbl1
+2 			1058 			  1121 			  32768 	0700 	sdi
+3 			1122 			  2121 			  500K 	  0700 	rpm
+4 			2122 			  3121 			  500K 	  0700 	tz
+5 			3122 			  13361		   	5120K 	0700 	aboot
+6 			16384 			16447 			32768 	0700 	DDR
+7 			32768 		  33791 			512K 	  0700 	sbl1bak
+8 			33792 		  34791 			500K 	  0700 	rpmbak
+9 			34792 		  35791 			500K 	  0700 	tzbak
+10 			35792			  46031 			5120K 	0700 	abootbak
+11 			49152			  81919 			16.0M 	0700 	boot
+12 			81920 			83967 			1024K 	0700 	pad
+13 			83968 			94207 			5120K 	0700 	asusdata
+14 			94208 			104447 			5120K 	0700 	asusdata2
+15 			104448 			106495 			1024K 	0700 	asuskey
+16 			106496 			108543 			1024K 	0700 	asuskey2
+17 			108544 			110591 			1024K 	0700 	asuskey3
+18 			110592 			112639 			1024K 	0700 	asuskey4
+19 			112640 			114687 			1024K 	0700 	asuskey5
+20 			114688 			376831 			128M 	  0700 	asusfw
+21 			376832 			382975 			3072K 	0700 	asusgpt
+22 			382976 			382991 			8192 	  0700 	ssd
+23 			382992 			385039 			1024K 	0700 	misc
+24 			393216 			458751 			32.0M 	0700 	persist
+25 			458752 			491519 			16.0M 	0700 	recovery
+26 			491520 			622591 			64.0M 	0700 	tombstones
+27 			622592 			624639 			1024K 	0700 	asusgpt1
+28 			624640 			626687 			1024K 	0700 	asusgpt2
+29 			638976 			655359 			8192K 	0700 	ADF
+30 			655360 			1269759 		300M 	  0700 	cache
+31 			1269760			1679359 		200M 	  0700 	APD
+32 			1679360 		2727935 		512M 	  0700 	system
+33 			2727936 		7634910 		2395M 	0700 	userdata
